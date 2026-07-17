@@ -2,11 +2,18 @@
   "name": "queuectl",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "queuectl": "./bin/queuectl.js"
   },
-  "keywords": [],
+  "main": "bin/queuectl.js",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "keywords": ["cli",
+    "job-queue",
+    "worker",
+    "retry",
+    "dlq"],
   "author": "",
   "license": "ISC",
   "dependencies": {
