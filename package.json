@@ -1,27 +1,27 @@
 {
   "name": "queuectl",
   "version": "1.0.0",
-  "description": "",
+  "description": "CLI-based background job queue system with retries, exponential backoff, and a Dead Letter Queue",
   "bin": {
     "queuectl": "./bin/queuectl.js"
   },
   "main": "bin/queuectl.js",
   "scripts": {
-    "start": "node bin/queuectl.js",
     "test": "jest --runInBand"
   },
-  "keywords": ["cli",
+  "keywords": [
+    "cli",
     "job-queue",
     "worker",
     "retry",
-    "dlq"],
-  "author": "Pratham Srivastava",
-  "license": "ISC",
+    "dlq"
+  ],
+  "license": "MIT",
   "dependencies": {
-    "better-sqlite3": "^12.11.1",
-    "commander": "^15.0.0"
+    "better-sqlite3": "^11.3.0",
+    "commander": "^12.1.0"
   },
   "devDependencies": {
-    "jest": "^30.4.2"
+    "jest": "^29.7.0"
   }
 }

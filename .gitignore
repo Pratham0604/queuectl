@@ -1,4 +1,8 @@
 node_modules/
-data/
-coverage/
-.env
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.db-journal
+data/logs/
+*.log
+.DS_Store
