@@ -20,6 +20,9 @@ queuectl status
 
 ---
 
+## Demo Video
+Watch a walkthrough of the CLI in action: [Demo Link](https://drive.google.com/file/d/1lveIMR16-ZVW5sFKiDXBRbIosc9_oS3V/view?usp=sharing)
+
 ## Setup Instructions
 
 **Requirements:** Node.js 18+ and npm.
